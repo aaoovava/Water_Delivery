@@ -1,0 +1,6 @@
+com/example/applicationboooo/MainActivity.java
+ com.example.applicationboooo.MainActivity
+com/example/applicationboooo/BuildConfig.java
+ com.example.applicationboooo.BuildConfig
+com/example/applicationboooo/databinding/ActivityMainBinding.java
+ com.example.applicationboooo.databinding.ActivityMainBinding
