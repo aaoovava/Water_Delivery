@@ -16,18 +16,21 @@
         app:layout_constraintVertical_bias="0.0">
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/AlaskaMenu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Monday" />
+            android:text="Аляска" />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/MirgorodskaMenu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tuesday" />
+            android:text="Миргородська" />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/AcvasoloMenu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Wednesday" />
+            android:text="Авка-Соло" />
     </com.google.android.material.tabs.TabLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
