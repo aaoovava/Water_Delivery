@@ -27,7 +27,6 @@
             android:id="@+id/alaska"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/image_alaska"
             android:isScrollContainer="true"
             android:text="@string/alaskaText"
             android:textAlignment="textEnd"
@@ -38,14 +37,12 @@
             android:id="@+id/mirhgorodska"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/mirgorod"
             android:text="@string/mirgorodska" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/akvasolo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/aquasolo"
             android:text="@string/acvasoloText"
             tools:ignore="ImageContrastCheck" />
     </com.google.android.material.tabs.TabLayout>
