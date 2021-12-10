@@ -4,33 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:focusable="auto"
     tools:context=".MainActivity">
 
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/menuWater"
         android:layout_width="410dp"
-        android:layout_height="71dp"
+        android:layout_height="55dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.003"
+        app:layout_constraintVertical_bias="0.0"
+        app:tabIconTint="@color/black"
+        app:tabIconTintMode="add"
         app:tabIndicatorColor="@color/teal_700"
+        app:tabIndicatorHeight="3.9dp"
         app:tabTextColor="@color/purple_700">
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/alaska"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Аляска" />
+            android:icon="@drawable/image_alaska"
+            android:isScrollContainer="true"
+            android:text="@string/alaskaText"
+            android:textAlignment="textEnd"
+            android:tintMode="add" />
+
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/mirhgorodska"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Миргородська" />
+            android:icon="@drawable/mirgorod"
+            android:text="@string/mirgorodska" />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/akvasolo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Аква-соло" />
+            android:icon="@drawable/aquasolo"
+            android:text="@string/acvasoloText"
+            tools:ignore="ImageContrastCheck" />
     </com.google.android.material.tabs.TabLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
