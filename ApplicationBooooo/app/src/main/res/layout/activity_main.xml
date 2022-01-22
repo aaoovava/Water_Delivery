@@ -6,15 +6,45 @@
     android:layout_height="match_parent"
     android:focusable="auto"
 
+    android:foregroundGravity="center"
+
     tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="29dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="32dp"
+        android:elevation="100dp"
+        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="@+id/button4"
+        app:srcCompat="@drawable/ic_dashboard_black_24dp" />
 
     <Button
         android:id="@+id/button3"
         style="@style/systemButtonStyle"
-        android:layout_width="195dp"
-        android:layout_height="160dp"
-        android:layout_marginTop="176dp"
-        android:layout_marginEnd="120dp"
+        android:layout_width="179dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="24dp"
+        android:foregroundTint="#120707"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+        android:text="dc,xcjmzkxcj"
+        app:circularflow_defaultRadius="32dp"
+        app:circularflow_radiusInDP="32dp"
+        app:cornerRadius="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/systemButtonStyle"
+        android:layout_width="179dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="216dp"
         android:foregroundTint="#120707"
         android:text="dc,xcjmzkxcj"
         app:circularflow_defaultRadius="32dp"
@@ -23,15 +53,34 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="264dp"
-        android:layout_marginEnd="128dp"
-        android:clickable="true"
+    <Button
+        android:id="@+id/button5"
+        style="@style/systemButtonStyle"
+        android:layout_width="179dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="24dp"
+        android:foregroundTint="#120707"
+        android:text="dc,xcjmzkxcj"
+        app:circularflow_defaultRadius="32dp"
+        app:circularflow_radiusInDP="32dp"
+        app:cornerRadius="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_notifications_black_24dp" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/systemButtonStyle"
+        android:layout_width="179dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="216dp"
+        android:foregroundTint="#120707"
+        android:text="dc,xcjmzkxcj"
+        app:circularflow_defaultRadius="32dp"
+        app:circularflow_radiusInDP="32dp"
+        app:cornerRadius="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
