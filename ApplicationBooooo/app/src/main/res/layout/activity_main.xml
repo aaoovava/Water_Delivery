@@ -31,7 +31,7 @@
         android:foregroundTint="#120707"
         android:scrollbarAlwaysDrawVerticalTrack="true"
         android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
-        android:text="2"
+        android:text="@string/title_activity_main2"
         app:circularflow_defaultRadius="32dp"
         app:circularflow_radiusInDP="32dp"
         app:cornerRadius="32dp"
