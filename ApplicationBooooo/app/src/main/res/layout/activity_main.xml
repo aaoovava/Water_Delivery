@@ -47,7 +47,7 @@
         android:layout_marginTop="200dp"
         android:layout_marginEnd="220dp"
         android:foregroundTint="#120707"
-        android:text="3"
+        android:text="12"
         app:circularflow_defaultRadius="32dp"
         app:circularflow_radiusInDP="32dp"
         app:cornerRadius="32dp"
@@ -84,7 +84,6 @@
         app:circularflow_radiusInDP="32dp"
         app:cornerRadius="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
