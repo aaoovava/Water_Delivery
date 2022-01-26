@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.applicationbooooo" >
+    package="com.example.applicationbooooo">
 
     <application
         android:allowBackup="true"
@@ -8,10 +8,15 @@
         android:label="Water Delivery"
         android:roundIcon="@drawable/horizontal_on_white_by_logaster__2_"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ApplicationBooooo" >
+        android:theme="@style/Theme.ApplicationBooooo">
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.ApplicationBooooo.NoActionBar" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

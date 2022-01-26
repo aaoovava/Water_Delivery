@@ -13,10 +13,27 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
         <item name="windowNoTitle">true</item>
-        <item name="materialButtonStyle">@style/systemButtonStyle</item> <!-- если используете MaterialComponents -->
-        <item name="buttonStyle">@style/systemButtonStyle</item> <!-- если используете AppCompat  -->
+        <item name="materialButtonStyle">@style/systemButtonStyle
+        </item> <!-- если используете MaterialComponents -->
+        <item name="buttonStyle">@style/systemButtonStyle
+        </item> <!-- если используете AppCompat  -->
     </style>
+
     <style name="systemButtonStyle" parent="Widget.MaterialComponents.Button">
         <item name="android:background">@drawable/r_butoonnnnnn</item>
+    </style>
+
+    <style name="Theme.ApplicationBooooo.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ApplicationBooooo.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ApplicationBooooo.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ThemeOverlay.ApplicationBooooo.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
     </style>
 </resources>

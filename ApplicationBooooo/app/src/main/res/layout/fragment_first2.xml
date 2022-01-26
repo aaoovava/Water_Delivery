@@ -4,34 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:focusable="auto"
-
-    android:foregroundGravity="center"
-
-    tools:context=".MainActivity">
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="75dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="8dp"
-        android:elevation="100dp"
-        app:layout_constraintEnd_toEndOf="@+id/button4"
-        app:layout_constraintTop_toTopOf="@+id/button4"
-        app:srcCompat="@drawable/ic_dashboard_black_24dp" />
+    tools:context=".First2Fragment">
 
     <Button
         android:id="@+id/button3"
         style="@style/systemButtonStyle"
-        android:layout_width="179dp"
-        android:layout_height="137dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="20dp"
+        android:layout_width="181dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="16dp"
         android:foregroundTint="#120707"
         android:scrollbarAlwaysDrawVerticalTrack="true"
         android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
-        android:text="@string/title_activity_main2"
+        android:text="2"
         app:circularflow_defaultRadius="32dp"
         app:circularflow_radiusInDP="32dp"
         app:cornerRadius="32dp"
@@ -41,27 +26,29 @@
     <Button
         android:id="@+id/button2"
         style="@style/systemButtonStyle"
-        android:layout_width="179dp"
-        android:layout_height="137dp"
+        android:layout_width="163dp"
+        android:layout_height="281dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="264dp"
         android:layout_marginEnd="220dp"
         android:foregroundTint="#120707"
-        android:text="12"
+        android:text="3"
         app:circularflow_defaultRadius="32dp"
         app:circularflow_radiusInDP="32dp"
         app:cornerRadius="32dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <Button
         android:id="@+id/button5"
         style="@style/systemButtonStyle"
         android:layout_width="179dp"
         android:layout_height="137dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="16dp"
         android:foregroundTint="#120707"
         android:text="4"
         app:circularflow_defaultRadius="32dp"
@@ -71,20 +58,22 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button4"
-        style="@style/systemButtonStyle"
-        android:layout_width="179dp"
-        android:layout_height="137dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="220dp"
-        android:foregroundTint="#120707"
-        android:text="1"
-        app:circularflow_defaultRadius="32dp"
-        app:circularflow_radiusInDP="32dp"
-        app:cornerRadius="32dp"
+        android:id="@+id/button_first"
+        android:layout_width="166dp"
+        android:layout_height="152dp"
+        android:layout_marginBottom="508dp"
+        android:text="Розливна"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="129dp"
+        android:layout_height="28dp"
+        android:text="Категорії"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
