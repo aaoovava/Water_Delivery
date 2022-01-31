@@ -4,17 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
+    android:background="#51E2F8E9"
     tools:context=".First2Fragment">
 
 
     <Button
         android:id="@+id/button3"
         style="@style/systemButtonStyle"
-        android:layout_width="157dp"
-        android:layout_height="185dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="24dp"
-        android:foregroundTint="#120707"
+        android:layout_width="162dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="20dp"
+
         android:scrollbarAlwaysDrawVerticalTrack="true"
         android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
         android:text="2"
@@ -27,27 +29,26 @@
     <Button
         android:id="@+id/button2"
         style="@style/systemButtonStyle"
-        android:layout_width="157dp"
-        android:layout_height="185dp"
-        android:layout_marginTop="292dp"
-        android:foregroundTint="#120707"
+        android:layout_width="162dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="396dp"
+
         android:text="3"
         app:circularflow_defaultRadius="32dp"
         app:circularflow_radiusInDP="32dp"
         app:cornerRadius="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button5"
         style="@style/systemButtonStyle"
-        android:layout_width="157dp"
-        android:layout_height="185dp"
-        android:layout_marginTop="292dp"
+        android:layout_width="162dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="396dp"
         android:layout_marginEnd="24dp"
-        android:foregroundTint="#120707"
         android:text="4"
         app:circularflow_defaultRadius="32dp"
         app:circularflow_radiusInDP="32dp"
@@ -57,24 +58,35 @@
 
     <Button
         android:id="@+id/button_first"
-        android:layout_width="157dp"
-        android:layout_height="185dp"
+        android:layout_width="162dp"
+        android:layout_height="123dp"
         android:text="Розливна"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.104"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.142" />
+        app:layout_constraintVertical_bias="0.309" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="116dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="148dp"
+        android:layout_width="169dp"
+        android:layout_height="82dp"
+        android:padding="12dp"
+        android:shadowColor="#373A4E"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
         android:text="Категорії"
-        app:autoSizeTextType="uniform"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="false"
+        android:textColor="#498FAF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

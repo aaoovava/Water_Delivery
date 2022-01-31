@@ -27,6 +27,9 @@
         <action
             android:id="@+id/action_Second2Fragment_to_fr_third"
             app:destination="@id/fr_third" />
+        <action
+            android:id="@+id/action_Second2Fragment_to_berezova2"
+            app:destination="@id/berezova2" />
     </fragment>
     <fragment
         android:id="@+id/fr_third"
@@ -40,4 +43,8 @@
             android:id="@+id/action_fr_third_to_Second2Fragment"
             app:destination="@id/Second2Fragment" />
     </fragment>
+    <fragment
+        android:id="@+id/berezova2"
+        android:name="com.example.applicationbooooo.berezova"
+        android:label="berezova" />
 </navigation>

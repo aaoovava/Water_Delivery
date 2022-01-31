@@ -4,19 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#51E2F8E9"
     tools:context=".Fr_third">
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="117dp"
-        android:layout_height="42dp"
-        android:layout_marginEnd="120dp"
-        android:text="Букет"
+        android:layout_width="169dp"
+        android:layout_height="82dp"
+        android:padding="12dp"
+        android:shadowColor="#373A4E"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:text="Категорії"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="false"
+        android:textColor="#498FAF"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.097" />
+        app:layout_constraintVertical_bias="0.063"/>
 
     <TextView
         android:id="@+id/textView3"
