@@ -7,27 +7,30 @@
     tools:context=".Second2Fragment">
 
     <Button
-        android:id="@+id/button_second"
-        android:layout_width="44dp"
-        android:layout_height="50dp"
-        android:drawableBottom="@android:drawable/ic_menu_directions"
-        android:rotationY="182"
+        android:id="@+id/button_first1"
+        android:layout_width="160dp"
+        android:layout_height="163dp"
+        android:layout_marginBottom="396dp"
+        android:text="Букет"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintHorizontal_bias="0.936"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.009" />
+        app:rippleColor="@color/black" />
 
     <Button
-        android:id="@+id/button_first1"
-        android:layout_width="166dp"
-        android:layout_height="152dp"
-        android:layout_marginBottom="500dp"
-        android:text="Букет"
+        android:id="@+id/buttonSecond"
+        android:layout_width="160dp"
+        android:layout_height="163dp"
+        android:text="березова"
+        android:textColorHighlight="#EA0909"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

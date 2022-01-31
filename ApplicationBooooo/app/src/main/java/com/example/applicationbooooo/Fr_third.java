@@ -31,13 +31,7 @@ public class Fr_third extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
 
-        binding.button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(Fr_third.this)
-                        .navigate(R.id.action_fr_third_to_First2Fragment);
-            }
-        });
+
     }
 
     @Override
