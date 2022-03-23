@@ -9,15 +9,18 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/b_tel2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="612dp"
-        android:layout_marginEnd="324dp"
+        android:layout_width="59dp"
+        android:layout_height="58dp"
         android:clickable="true"
-        android:src="@android:drawable/ic_menu_mylocation"
+        android:src="@drawable/_0382_removebg_preview"
+        android:tint="#433F3F"
         app:backgroundTint="@color/light_blue_A200"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
@@ -36,22 +39,25 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintHorizontal_bias="0.355"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.024" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/b_tel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="612dp"
-        android:layout_marginEnd="16dp"
+        android:layout_width="59dp"
+        android:layout_height="58dp"
         android:clickable="true"
         android:src="@android:drawable/stat_sys_phone_call"
+        android:tint="#A6A8B5"
         app:backgroundTint="@color/light_blue_A200"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <LinearLayout
@@ -211,18 +217,6 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
-        android:id="@+id/imageViewOne"
-        android:layout_width="209dp"
-        android:layout_height="235dp"
-        android:src="@drawable/__28748968"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.177" />
-
-    <ImageView
         android:id="@+id/imageViewSecond"
         android:layout_width="296dp"
         android:layout_height="262dp"
@@ -233,5 +227,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.13" />
+
+    <ImageView
+        android:id="@+id/imageViewOne"
+        android:layout_width="190dp"
+        android:layout_height="242dp"
+        android:src="@drawable/__28748968_removebg_preview"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.165" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
