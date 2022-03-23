@@ -50,6 +50,30 @@ public class Fr_third extends Fragment {
 
             }
         });
+        binding.Button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                binding.imageViewSecond.setVisibility(View.INVISIBLE);
+                binding.imageViewOne.setVisibility(View.VISIBLE);
+
+            }
+        });
+        binding.Button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                binding.imageViewOne.setVisibility(View.INVISIBLE);
+                binding.imageViewSecond.setVisibility(View.VISIBLE);
+
+            }
+        });
+        binding.bTel2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent browserIntent = new
+                        Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com.ua/maps/place/Платежный+терминал+EasyPay/@49.960597,33.6186643,16z/data=!4m5!3m4!1s0x40d7b34269a63a09:0x8c9b449eecb5b78a!8m2!3d49.95936!4d33.6265731?hl=ru"));
+                startActivity(browserIntent);
+            }
+        });
     }
 
     @Override
