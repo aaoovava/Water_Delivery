@@ -92,7 +92,7 @@
                 android:id="@+id/textView12"
                 android:layout_width="256dp"
                 android:layout_height="match_parent"
-                android:paddingLeft="100dp"
+                android:paddingLeft="102dp"
                 android:text="Сертефікат А та Б"
                 android:textColor="#3C3A3A"
                 android:textSize="16sp" />

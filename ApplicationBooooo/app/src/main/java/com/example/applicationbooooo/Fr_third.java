@@ -53,18 +53,41 @@ public class Fr_third extends Fragment {
         binding.Button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                binding.imageViewSecond.setVisibility(View.INVISIBLE);
-                binding.imageViewOne.setVisibility(View.VISIBLE);
+                if(binding.imageViewOne.getVisibility() == View.VISIBLE ){
+                    binding.imageViewOne.setVisibility(View.INVISIBLE);
+                    binding.imageViewSecond.setVisibility(View.VISIBLE);
+                    binding.textView16.setText("20л");
+
+                }
+                else if (binding.imageViewSecond.getVisibility() == View.VISIBLE ){
+                    binding.imageViewSecond.setVisibility(View.INVISIBLE);
+                    binding.imageViewOne.setVisibility(View.VISIBLE);
+                    binding.textView16.setText("1.5л");
+                }
+                //binding.imageViewOne.setVisibility(View.VISIBLE);
 
             }
         });
         binding.Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                binding.imageViewOne.setVisibility(View.INVISIBLE);
-                binding.imageViewSecond.setVisibility(View.VISIBLE);
+
+                if(binding.imageViewOne.getVisibility() == View.VISIBLE ){
+                    binding.imageViewOne.setVisibility(View.INVISIBLE);
+                    binding.imageViewSecond.setVisibility(View.VISIBLE);
+                    binding.textView16.setText("20л");
+
+                }
+                else if (binding.imageViewSecond.getVisibility() == View.VISIBLE ){
+                    binding.imageViewSecond.setVisibility(View.INVISIBLE);
+                    binding.imageViewOne.setVisibility(View.VISIBLE);
+                    binding.textView16.setText("1.5л");
+                }
+                //binding.imageViewOne.setVisibility(View.VISIBLE);
 
             }
+
+
         });
         binding.bTel2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -74,6 +97,9 @@ public class Fr_third extends Fragment {
                 startActivity(browserIntent);
             }
         });
+    }
+    public void slepp() throws InterruptedException {
+        Thread.sleep(1000);
     }
 
     @Override
