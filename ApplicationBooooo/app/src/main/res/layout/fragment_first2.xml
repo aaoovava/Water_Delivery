@@ -90,19 +90,6 @@
         app:layout_constraintTop_toTopOf="@+id/button_first"
         app:layout_constraintVertical_bias="0.232" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="60dp"
-        android:layout_height="51dp"
-        android:src="@drawable/gratis_png_botellas_de_agua_iconos_de_la_computadora_botella_de_agua_thumbnail_removebg_preview"
-        app:layout_constraintBottom_toBottomOf="@+id/button_first"
-        app:layout_constraintEnd_toEndOf="@+id/button_first"
-        app:layout_constraintHorizontal_bias="0.91"
-        app:layout_constraintStart_toStartOf="@+id/button_first"
-        app:layout_constraintTop_toTopOf="@+id/button_first"
-        app:layout_constraintVertical_bias="0.902"
-        app:tint="#2196F3" />
-
     <TextView
         android:id="@+id/textView7"
         android:layout_width="110dp"
@@ -120,15 +107,15 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="60dp"
-        android:layout_height="61dp"
+        android:layout_width="67dp"
+        android:layout_height="97dp"
         android:src="@drawable/uuuweuuw"
         app:layout_constraintBottom_toBottomOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="@+id/button3"
-        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/button3"
         app:layout_constraintTop_toTopOf="@+id/button3"
-        app:layout_constraintVertical_bias="0.951"
+        app:layout_constraintVertical_bias="1.0"
         app:tint="#2196F3" />
 
     <Button
@@ -153,7 +140,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/th3"
         android:layout_width="138dp"
         android:layout_height="134dp"
         android:layout_marginStart="12dp"
@@ -187,19 +174,6 @@
         app:layout_constraintStart_toStartOf="@+id/button"
         app:layout_constraintTop_toTopOf="@+id/button" />
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="70dp"
-        android:layout_height="101dp"
-        android:src="@drawable/kuler"
-        app:layout_constraintBottom_toBottomOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="@+id/button"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toTopOf="@+id/button"
-        app:layout_constraintVertical_bias="1.0"
-        app:tint="#3F51B5" />
-
     <TextView
         android:id="@+id/textView11"
         android:layout_width="122dp"
@@ -208,24 +182,50 @@
         android:textColor="#070707"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="@+id/button2"
-        app:layout_constraintHorizontal_bias="0.473"
-        app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toTopOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.468" />
+        app:layout_constraintBottom_toBottomOf="@+id/th3"
+        app:layout_constraintEnd_toEndOf="@+id/th3"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toStartOf="@+id/th3"
+        app:layout_constraintTop_toTopOf="@+id/th3"
+        app:layout_constraintVertical_bias="0.485" />
 
     <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="76dp"
-        android:layout_height="49dp"
-        android:src="@drawable/pompa"
-        app:layout_constraintBottom_toBottomOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="@+id/button2"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toTopOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.862"
+        android:id="@+id/imageView"
+        android:layout_width="51dp"
+        android:layout_height="72dp"
+        android:src="@drawable/_445130_removebg_preview"
+        app:layout_constraintBottom_toBottomOf="@+id/th3"
+        app:layout_constraintEnd_toEndOf="@+id/th3"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintStart_toStartOf="@+id/th3"
+        app:layout_constraintTop_toTopOf="@+id/th3"
+        app:layout_constraintVertical_bias="0.854"
+        app:tint="#2196F3" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="47dp"
+        android:layout_height="61dp"
+        android:src="@drawable/free_icon_plastic_bottle_1265024"
+        app:layout_constraintBottom_toBottomOf="@+id/button_first"
+        app:layout_constraintEnd_toEndOf="@+id/button_first"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="@+id/button_first"
+        app:layout_constraintTop_toTopOf="@+id/button_first"
+        app:layout_constraintVertical_bias="0.784"
+        app:tint="#2196F3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="54dp"
+        android:layout_height="94dp"
+        android:src="@drawable/but_removebg_preview"
+        app:layout_constraintBottom_toBottomOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@+id/button"
+        app:layout_constraintVertical_bias="1.0"
         app:tint="#2196F3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

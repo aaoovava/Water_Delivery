@@ -1,5 +1,6 @@
 package com.example.applicationbooooo;
 
+import static android.Manifest.permission.ACCEPT_HANDOVER;
 import static android.Manifest.permission.CALL_PHONE;
 
 import android.content.Intent;
@@ -11,6 +12,7 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -20,16 +22,16 @@ import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.applicationbooooo.databinding.Fragment4Binding;
+import com.example.applicationbooooo.databinding.FragmentBlankBinding;
 import com.example.applicationbooooo.databinding.FragmentSecond2Binding;
 import com.example.applicationbooooo.databinding.FragmentThirdBinding;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.HashMap;
 
-public class fragment_5 extends Fragment {
+public class BlankFragment extends Fragment {
 
-    private Fragment4Binding binding;
+    private FragmentBlankBinding binding;
 
 
     @Override
@@ -38,7 +40,7 @@ public class fragment_5 extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = Fragment4Binding.inflate(inflater, container, false);
+        binding = FragmentBlankBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }

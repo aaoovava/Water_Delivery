@@ -4,9 +4,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -56,11 +53,11 @@ public class First2Fragment extends Fragment {
                         .navigate(R.id.action_First2Fragment_to_fragment_4);
             }
         });
-        binding.button2.setOnClickListener(new View.OnClickListener() {
+        binding.th3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(First2Fragment.this)
-                        .navigate(R.id.action_First2Fragment_to_fr_third);
+                        .navigate(R.id.action_First2Fragment_to_blankFragment);
             }
         });
 

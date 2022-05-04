@@ -25,8 +25,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="169dp"
-        android:layout_height="82dp"
+        android:layout_width="281dp"
+        android:layout_height="85dp"
         android:padding="12dp"
         android:shadowColor="#373A4E"
         android:shadowDx="2"
@@ -35,11 +35,11 @@
         android:text="Аляска"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#498FAF"
+        android:textColor="#15ABDD"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.43"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.024" />
@@ -218,8 +218,8 @@
 
     <ImageView
         android:id="@+id/imageViewSecond"
-        android:layout_width="225dp"
-        android:layout_height="197dp"
+        android:layout_width="227dp"
+        android:layout_height="204dp"
         android:src="@drawable/butil1_removebg_preview"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -238,6 +238,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.211" />
+        app:layout_constraintVertical_bias="0.206" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

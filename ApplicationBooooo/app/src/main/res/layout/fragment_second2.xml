@@ -35,7 +35,7 @@
         android:text="Аква-Лайф"
         android:textAlignment="viewEnd"
         android:textAllCaps="false"
-        android:textColor="#498FAF"
+        android:textColor="#15ABDD"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
