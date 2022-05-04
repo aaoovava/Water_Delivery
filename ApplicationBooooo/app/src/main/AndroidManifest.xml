@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/horizontal_on_white_by_logaster__2_"
+        android:icon="@drawable/imgonline_com_ua_shape_iljtkohl0bwreo"
         android:label="Water Delivery"
-        android:roundIcon="@drawable/horizontal_on_white_by_logaster__2_"
+        android:roundIcon="@drawable/imgonline_com_ua_shape_iljtkohl0bwreo"
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationBooooo">
         <activity

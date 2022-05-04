@@ -25,21 +25,21 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="169dp"
-        android:layout_height="82dp"
+        android:layout_width="281dp"
+        android:layout_height="85dp"
         android:padding="12dp"
         android:shadowColor="#373A4E"
         android:shadowDx="2"
         android:shadowDy="2"
         android:shadowRadius="5"
-        android:text="Юр-Аква"
-        android:textAlignment="viewEnd"
+        android:text="Здорова воода"
+        android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#498FAF"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintHorizontal_bias="0.43"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.024" />
@@ -218,8 +218,8 @@
 
     <ImageView
         android:id="@+id/imageViewSecond"
-        android:layout_width="252dp"
-        android:layout_height="205dp"
+        android:layout_width="227dp"
+        android:layout_height="204dp"
         android:src="@drawable/butil1_removebg_preview"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -236,9 +236,8 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.165" />
+        app:layout_constraintVertical_bias="0.206" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

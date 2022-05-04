@@ -10,27 +10,24 @@
         android:name="com.example.applicationbooooo.First2Fragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first2">
-
         <action
-            android:id="@+id/action_First2Fragment_to_Second2Fragment"
+            android:id="@+id/action_First2Fragment_to_fr_third"
+            app:destination="@id/fr_third" />
+        <action
+            android:id="@+id/action_First2Fragment_to_Second2Fragment2"
             app:destination="@id/Second2Fragment" />
+        <action
+            android:id="@+id/action_First2Fragment_to_fragment_5"
+            app:destination="@id/fragment_5" />
+        <action
+            android:id="@+id/action_First2Fragment_to_fragment_4"
+            app:destination="@id/fragment_4" />
     </fragment>
     <fragment
         android:id="@+id/Second2Fragment"
         android:name="com.example.applicationbooooo.Second2Fragment"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second2">
-
-        <action
-            android:id="@+id/action_Second2Fragment_to_First2Fragment"
-            app:destination="@id/First2Fragment" />
-        <action
-            android:id="@+id/action_Second2Fragment_to_fr_third"
-            app:destination="@id/fr_third" />
-        <action
-            android:id="@+id/action_Second2Fragment_to_berezova2"
-            app:destination="@id/berezova2" />
-    </fragment>
+        tools:layout="@layout/fragment_second2"/>
     <fragment
         android:id="@+id/fr_third"
         android:name="com.example.applicationbooooo.Fr_third"
@@ -39,12 +36,15 @@
         <action
             android:id="@+id/action_fr_third_to_First2Fragment"
             app:destination="@id/First2Fragment" />
-        <action
-            android:id="@+id/action_fr_third_to_Second2Fragment"
-            app:destination="@id/Second2Fragment" />
     </fragment>
     <fragment
-        android:id="@+id/berezova2"
-        android:name="com.example.applicationbooooo.berezova"
-        android:label="berezova" />
+        android:id="@+id/fragment_4"
+        android:name="com.example.applicationbooooo.fragment_4"
+        android:label="fragment_4"
+        tools:layout="@layout/fragment_4" />
+    <fragment
+        android:id="@+id/fragment_5"
+        android:name="com.example.applicationbooooo.fragment_5"
+        android:label="fragment_5"
+        tools:layout="@layout/fragment_5" />
 </navigation>

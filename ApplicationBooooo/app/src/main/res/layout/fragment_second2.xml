@@ -3,148 +3,241 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:screenOrientation="landscape"
-    android:orientation="vertical"
     android:layout_height="match_parent"
-    android:background="#51E2F8E9"
-    tools:context=".Second2Fragment">
+    android:screenOrientation="portrait"
+    tools:context=".Fr_third">
 
-    <Button
-        android:id="@+id/buttonFirst1"
-        android:layout_width="160dp"
-        android:layout_height="164dp"
-
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="146dp"
-        android:fontFamily="sans-serif"
-        android:lineSpacingExtra="12sp"
-        android:textAlignment="center"
-        android:textColor="#0B0A0A"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:typeface="serif"
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/b_tel2"
+        android:layout_width="59dp"
+        android:layout_height="58dp"
+        android:clickable="true"
+        android:src="@drawable/_0382_removebg_preview"
+        android:tint="#433F3F"
+        app:backgroundTint="@color/light_blue_A200"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintHorizontal_bias="0.118"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <Button
-        android:id="@+id/buttonSecond"
-        style="@style/Widget.MaterialComponents.MaterialCalendar.Day.Today"
-        android:layout_width="160dp"
-        android:layout_height="164dp"
-
-
-        android:layout_marginTop="146dp"
-        android:layout_marginEnd="12dp"
-        android:text=""
-        android:textColor="#0B0A0A"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.941"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.925"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/textView5"
-
-        android:layout_width="279dp"
-        android:layout_height="92dp"
+        android:id="@+id/textView2"
+        android:layout_width="216dp"
+        android:layout_height="73dp"
         android:padding="12dp"
         android:shadowColor="#373A4E"
         android:shadowDx="2"
         android:shadowDy="2"
         android:shadowRadius="5"
-        android:text="Вода в бутилях"
+        android:text="Аква-Лайф"
         android:textAlignment="viewEnd"
         android:textAllCaps="false"
-        android:textColor="#131617"
+        android:textColor="#498FAF"
         android:textSize="34sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintHorizontal_bias="0.441"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.025" />
+        app:layout_constraintVertical_bias="0.024" />
 
-    <TextView
-        android:id="@+id/textView9"
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/b_tel"
+        android:layout_width="59dp"
+        android:layout_height="58dp"
+        android:clickable="true"
+        android:src="@android:drawable/stat_sys_phone_call"
+        android:tint="#A6A8B5"
+        app:backgroundTint="@color/light_blue_A200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925"
+        tools:ignore="SpeakableTextPresentCheck" />
 
-        android:layout_width="86dp"
-        android:layout_height="65dp"
-        android:elevation="20dp"
-        android:text="Букет"
-        android:textColor="#070707"
-        android:textSize="20sp"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="222dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723">
 
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonFirst1"
-        app:layout_constraintEnd_toEndOf="@+id/buttonFirst1"
-        app:layout_constraintHorizontal_bias="0.189"
-        app:layout_constraintStart_toStartOf="@+id/buttonFirst1"
-        app:layout_constraintTop_toTopOf="@+id/buttonFirst1"
-        app:layout_constraintVertical_bias="0.262" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#D0E2F1"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Тип якості"
+                android:textColor="#454141"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="102dp"
+                android:text="Сертефікат А та Б"
+                android:textColor="#3C3A3A"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BA79A0B1"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:text="Літраж"
+                android:textColor="#454141"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="309dp"
+                android:layout_height="32dp"
+                android:paddingLeft="125dp"
+                android:text="1л, 1.5л, 3л, 6л, 20л"
+                android:textColor="#3C3A3A"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D0E2F1"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:text="Доставка"
+                android:textColor="#454141"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="309dp"
+                android:layout_height="32dp"
+                android:paddingLeft="110dp"
+                android:paddingTop="5dp"
+                android:text="Так"
+                android:textColor="#3C3A3A"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#BA79A0B1"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:text="Доп. товари "
+                android:textColor="#454141"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="88dp"
+                android:paddingTop="5dp"
+                android:text="Так"
+                android:textColor="#3C3A3A"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Button"
+        android:layout_width="57dp"
+        android:layout_height="55dp"
+        android:clickable="true"
+        android:src="?attr/actionModeCloseDrawable"
+        android:visibility="visible"
+        app:backgroundTint="@color/light_blue_A200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewOne"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.273"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Button2"
+        android:layout_width="57dp"
+        android:layout_height="55dp"
+        android:clickable="true"
+        android:rotation="180"
+        android:src="?attr/actionModeCloseDrawable"
+        app:backgroundTint="@color/light_blue_A200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toEndOf="@+id/imageViewOne"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.273"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="60dp"
-        android:layout_height="68dp"
-        android:src="@drawable/uuuweuuw"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonFirst1"
-        app:layout_constraintEnd_toEndOf="@+id/buttonFirst1"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/buttonFirst1"
-        app:layout_constraintTop_toTopOf="@+id/buttonFirst1"
-        app:layout_constraintVertical_bias="0.916"
-        app:tint="#2196F3" />
+        android:id="@+id/imageViewSecond"
+        android:layout_width="238dp"
+        android:layout_height="219dp"
+        android:src="@drawable/butil1_removebg_preview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158" />
 
     <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="54dp"
-        android:layout_height="86dp"
-        android:src="@drawable/gratis_png_botellas_de_agua_iconos_de_la_computadora_botella_de_agua_thumbnail_removebg_preview"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonFirst1"
-        app:layout_constraintEnd_toEndOf="@+id/buttonFirst1"
-        app:layout_constraintHorizontal_bias="0.632"
-        app:layout_constraintStart_toStartOf="@+id/buttonFirst1"
-        app:layout_constraintTop_toTopOf="@+id/buttonFirst1"
-        app:layout_constraintVertical_bias="1.0"
-        app:tint="#2196F3" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="54dp"
-        android:layout_height="86dp"
-        android:src="@drawable/gratis_png_botellas_de_agua_iconos_de_la_computadora_botella_de_agua_thumbnail_removebg_preview"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonSecond"
-        app:layout_constraintEnd_toEndOf="@+id/buttonSecond"
-        app:layout_constraintHorizontal_bias="0.839"
-        app:layout_constraintStart_toStartOf="@+id/buttonSecond"
-        app:layout_constraintTop_toTopOf="@+id/buttonSecond"
-        app:layout_constraintVertical_bias="1.0"
-        app:tint="#2196F3" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="93dp"
-        android:layout_height="62dp"
-        android:elevation="20dp"
-        android:text="Березова"
-        android:textColor="#070707"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonSecond"
-        app:layout_constraintEnd_toEndOf="@+id/buttonSecond"
-        app:layout_constraintHorizontal_bias="0.328"
-        app:layout_constraintStart_toStartOf="@+id/buttonSecond"
-        app:layout_constraintTop_toTopOf="@+id/buttonSecond"
-        app:layout_constraintVertical_bias="0.254" />
+        android:id="@+id/imageViewOne"
+        android:layout_width="187dp"
+        android:layout_height="198dp"
+        android:src="@drawable/__28748968_removebg_preview"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.191" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

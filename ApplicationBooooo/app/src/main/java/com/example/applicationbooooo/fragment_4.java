@@ -20,15 +20,16 @@ import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.example.applicationbooooo.databinding.Fragment4Binding;
 import com.example.applicationbooooo.databinding.FragmentSecond2Binding;
 import com.example.applicationbooooo.databinding.FragmentThirdBinding;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.HashMap;
 
-public class Fr_third extends Fragment {
+public class fragment_4 extends Fragment {
 
-    private FragmentThirdBinding binding;
+    private Fragment4Binding binding;
 
 
     @Override
@@ -37,7 +38,7 @@ public class Fr_third extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = FragmentThirdBinding.inflate(inflater, container, false);
+        binding = Fragment4Binding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
