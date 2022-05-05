@@ -1,32 +1,35 @@
 package com.example.applicationbooooo;
 
-import static android.Manifest.permission.CALL_PHONE;
-
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
-import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
-import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.applicationbooooo.databinding.FragmentSecond2Binding;
 import com.example.applicationbooooo.databinding.FragmentThirdBinding;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-import java.util.HashMap;
+import java.util.ArrayList;
 
 public class Fr_third extends Fragment {
+    public  void one (){
+        if(binding.imageViewOne.getVisibility() == View.VISIBLE ){
+            binding.imageViewOne.setVisibility(View.INVISIBLE);
+            binding.imageViewSecond.setVisibility(View.VISIBLE);
+            binding.textView16.setText("20л");
+
+
+        }
+        else if (binding.imageViewSecond.getVisibility() == View.VISIBLE ){
+            binding.imageViewSecond.setVisibility(View.INVISIBLE);
+            binding.imageViewOne.setVisibility(View.VISIBLE);
+            binding.textView16.setText("1.5л");
+        }
+    }
 
     private FragmentThirdBinding binding;
 
@@ -54,21 +57,16 @@ public class Fr_third extends Fragment {
 
             }
         });
+
+
+
+
+
         binding.Button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                one();
 
-                if(binding.imageViewOne.getVisibility() == View.VISIBLE ){
-                    binding.imageViewOne.setVisibility(View.INVISIBLE);
-                    binding.imageViewSecond.setVisibility(View.VISIBLE);
-                    binding.textView16.setText("20л");
-
-                }
-                else if (binding.imageViewSecond.getVisibility() == View.VISIBLE ){
-                    binding.imageViewSecond.setVisibility(View.INVISIBLE);
-                    binding.imageViewOne.setVisibility(View.VISIBLE);
-                    binding.textView16.setText("1.5л");
-                }
                 //binding.imageViewOne.setVisibility(View.VISIBLE);
 
             }
@@ -77,17 +75,7 @@ public class Fr_third extends Fragment {
             @Override
             public void onClick(View view) {
 
-                if(binding.imageViewOne.getVisibility() == View.VISIBLE ){
-                    binding.imageViewOne.setVisibility(View.INVISIBLE);
-                    binding.imageViewSecond.setVisibility(View.VISIBLE);
-                    binding.textView16.setText("20л");
-
-                }
-                else if (binding.imageViewSecond.getVisibility() == View.VISIBLE ){
-                    binding.imageViewSecond.setVisibility(View.INVISIBLE);
-                    binding.imageViewOne.setVisibility(View.VISIBLE);
-                    binding.textView16.setText("1.5л");
-                }
+                one();
                 //binding.imageViewOne.setVisibility(View.VISIBLE);
 
             }

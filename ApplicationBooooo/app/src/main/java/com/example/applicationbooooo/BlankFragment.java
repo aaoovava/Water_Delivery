@@ -32,7 +32,20 @@ import java.util.HashMap;
 public class BlankFragment extends Fragment {
 
     private FragmentBlankBinding binding;
+    public void one (){
+        if(binding.imageViewOne.getVisibility() == View.VISIBLE ){
+            binding.imageViewOne.setVisibility(View.INVISIBLE);
+            binding.imageViewSecond.setVisibility(View.VISIBLE);
+            binding.textView16.setText("20л");
 
+
+        }
+        else if (binding.imageViewSecond.getVisibility() == View.VISIBLE ){
+            binding.imageViewSecond.setVisibility(View.INVISIBLE);
+            binding.imageViewOne.setVisibility(View.VISIBLE);
+            binding.textView16.setText("1.5л");
+        }
+    }
 
     @Override
     public View onCreateView(
@@ -60,18 +73,8 @@ public class BlankFragment extends Fragment {
         binding.Button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                one();
 
-                if(binding.imageViewOne.getVisibility() == View.VISIBLE ){
-                    binding.imageViewOne.setVisibility(View.INVISIBLE);
-                    binding.imageViewSecond.setVisibility(View.VISIBLE);
-                    binding.textView16.setText("20л");
-
-                }
-                else if (binding.imageViewSecond.getVisibility() == View.VISIBLE ){
-                    binding.imageViewSecond.setVisibility(View.INVISIBLE);
-                    binding.imageViewOne.setVisibility(View.VISIBLE);
-                    binding.textView16.setText("1.5л");
-                }
                 //binding.imageViewOne.setVisibility(View.VISIBLE);
 
             }
@@ -80,17 +83,7 @@ public class BlankFragment extends Fragment {
             @Override
             public void onClick(View view) {
 
-                if(binding.imageViewOne.getVisibility() == View.VISIBLE ){
-                    binding.imageViewOne.setVisibility(View.INVISIBLE);
-                    binding.imageViewSecond.setVisibility(View.VISIBLE);
-                    binding.textView16.setText("20л");
-
-                }
-                else if (binding.imageViewSecond.getVisibility() == View.VISIBLE ){
-                    binding.imageViewSecond.setVisibility(View.INVISIBLE);
-                    binding.imageViewOne.setVisibility(View.VISIBLE);
-                    binding.textView16.setText("1.5л");
-                }
+                one();
                 //binding.imageViewOne.setVisibility(View.VISIBLE);
 
             }

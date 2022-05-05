@@ -30,6 +30,20 @@ import java.util.HashMap;
 public class fragment_4 extends Fragment {
 
     private Fragment4Binding binding;
+    public void one (){
+        if(binding.imageViewOne.getVisibility() == View.VISIBLE ){
+            binding.imageViewOne.setVisibility(View.INVISIBLE);
+            binding.imageViewSecond.setVisibility(View.VISIBLE);
+            binding.textView16.setText("20л");
+
+
+        }
+        else if (binding.imageViewSecond.getVisibility() == View.VISIBLE ){
+            binding.imageViewSecond.setVisibility(View.INVISIBLE);
+            binding.imageViewOne.setVisibility(View.VISIBLE);
+            binding.textView16.setText("1.5л");
+        }
+    }
 
 
     @Override
@@ -59,17 +73,7 @@ public class fragment_4 extends Fragment {
             @Override
             public void onClick(View view) {
 
-                if(binding.imageViewOne.getVisibility() == View.VISIBLE ){
-                    binding.imageViewOne.setVisibility(View.INVISIBLE);
-                    binding.imageViewSecond.setVisibility(View.VISIBLE);
-                    binding.textView16.setText("20л");
-
-                }
-                else if (binding.imageViewSecond.getVisibility() == View.VISIBLE ){
-                    binding.imageViewSecond.setVisibility(View.INVISIBLE);
-                    binding.imageViewOne.setVisibility(View.VISIBLE);
-                    binding.textView16.setText("1.5л");
-                }
+            one();
                 //binding.imageViewOne.setVisibility(View.VISIBLE);
 
             }
@@ -78,17 +82,7 @@ public class fragment_4 extends Fragment {
             @Override
             public void onClick(View view) {
 
-                if(binding.imageViewOne.getVisibility() == View.VISIBLE ){
-                    binding.imageViewOne.setVisibility(View.INVISIBLE);
-                    binding.imageViewSecond.setVisibility(View.VISIBLE);
-                    binding.textView16.setText("20л");
-
-                }
-                else if (binding.imageViewSecond.getVisibility() == View.VISIBLE ){
-                    binding.imageViewSecond.setVisibility(View.INVISIBLE);
-                    binding.imageViewOne.setVisibility(View.VISIBLE);
-                    binding.textView16.setText("1.5л");
-                }
+                one();
                 //binding.imageViewOne.setVisibility(View.VISIBLE);
 
             }
